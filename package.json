@@ -2,7 +2,7 @@
 
 "homepage": "https://TheBetterLuis.github.io/reactproject",
   "name": "project",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
