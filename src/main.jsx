@@ -5,7 +5,7 @@ import Application from './components/Application'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Application></Application>
     </Router>
   </StrictMode>,

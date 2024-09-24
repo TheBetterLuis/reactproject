@@ -30,7 +30,7 @@ function Login() {
     if (usernameExists) {
       const log = existingUsers.find((user) => (user.username === username || user.email === username))
 
-      console.log(`-${decryptPassword(existingUsers[0].password)}-   -${decryptPassword(log.password)}-`)
+      //console.log(`-${decryptPassword(existingUsers[0].password)}-   -${decryptPassword(log.password)}-`)
 
       if (decryptPassword(log.password) == password) {
         localStorage.setItem('activeUser', JSON.stringify(log))
